@@ -1,0 +1,26 @@
+body {
+    background-color: #08555D;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+h1,h2 {
+    color: white;
+  }
+
+#ext2{
+    background-color: white;
+}
+
+.card-img-top , .featured-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 75%;
+}
+
+.card{
+  background-color: #F5DF99;
+}
