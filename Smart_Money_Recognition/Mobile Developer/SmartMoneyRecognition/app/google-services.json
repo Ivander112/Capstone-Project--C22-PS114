@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "304365650896",
+    "project_id": "smartmoneyrecognition",
+    "storage_bucket": "smartmoneyrecognition.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304365650896:android:e8a2e33fdc4ec61e802fd5",
+        "android_client_info": {
+          "package_name": "com.example.smartmoneyrecognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304365650896-ojpvl3i0p2i882qtvgnsns5sl6sunu36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartmoneyrecognition",
+            "certificate_hash": "aeb5c415b86f83c1cd5e32e65acef4ac35886c2f"
+          }
+        },
+        {
+          "client_id": "304365650896-8d1qta28kaa6gc87g269mojggicgj937.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5OFep5jTZx5kfx1wXTzorRkG3U_p_rzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304365650896-8d1qta28kaa6gc87g269mojggicgj937.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

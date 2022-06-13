@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AnalisisActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/bluish_cyan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/inter_regular"
+            android:text="@string/hasil_analisis"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textHasilAnalisis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_regular"
+        android:text="@string/tv_hasil_analisis"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ImageView
+        android:id="@+id/ivAnalisis"
+        android:layout_width="230dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/picture"
+        android:contentDescription="@string/gambar_uang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textHasilAnalisis" />
+
+    <TextView
+        android:id="@+id/tvHasilAnalisis"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/tv_analisis_uang"
+        android:fontFamily="@font/inter_regular"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivAnalisis"/>
+
+    <LinearLayout
+        android:id="@+id/llHasilAnalisis"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="21dp"
+        android:orientation="vertical"
+        android:background="@drawable/customborder"
+        app:layout_constraintTop_toBottomOf="@id/tvHasilAnalisis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_detail"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:id="@+id/tvDetailAnalisis"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            tools:text="@tools:sample/lorem/random"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvAnalisisLagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/mybutton"
+        android:fontFamily="@font/inter_regular"
+        android:padding="10dp"
+        android:text="@string/tv_analisis_lagi"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llHasilAnalisis"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
